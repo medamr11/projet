@@ -1,0 +1,163 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.exit {
+    width: 2.5rem;
+    height: 2.5rem;
+    top: 2.5%;
+    right: 2.5%;
+    position: fixed;
+    z-index: 5;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.LOGO {
+    width: 14rem;
+    height: 7rem;
+    position: inherit;
+    left: -110px;
+    top: -95px;
+}
+
+
+
+.login {
+    position: relative;
+    width: 65%;
+    height: 581px;
+    background-color: rgb(255, 255, 255);
+    right: 0px;
+}
+
+.signIn {
+    position: absolute;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5px;
+    margin: 100px 31px 30px 125px;
+
+
+}
+
+h1 {
+    font-size: 2.625rem;
+    line-height: 52px;
+    margin-bottom: 8px;
+
+}
+
+.socialNetworks {
+    margin-top: 10px;
+    width: 100%;
+    color: #555a59;
+    font-size: 1.125rem;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 16px;
+    background-color: #eef5f3;
+
+}
+
+.OR {
+    margin-top: 10px;
+    color: #555a59;
+    font-size: .7875rem;
+    text-transform: uppercase;
+    background-color: #fff;
+    text-align: center;
+    padding: 0 8px;
+}
+
+input {
+    margin-top: 10px;
+    background: #eef5f3;
+    border: none;
+    height: 48px;
+    font-size: .875rem;
+    border-radius: 20px;
+    color: #88908e;
+    width: 100%;
+    outline: 0px;
+    padding: 0 16px;
+}
+
+.submitIn {
+    margin-top: 10px;
+    width: 235px;
+    height: 54px;
+    background-color: #28b498;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: .875rem;
+    line-height: 16px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.icons {
+
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 15px;
+}
+
+.signUp {
+    background-color: #28b498;
+    position: absolute;
+    right: 0px;
+    width: 33%;
+    height: 64%;
+    padding-top: 17%;
+}
+
+h2 {
+    font-size: 2.125rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+.signUp-para {
+    font-size: 1.125rem;
+    margin-bottom: 24px;
+    margin-left: 23px;
+    max-width: 350px;
+    letter-spacing: 0.2;
+    line-height: 36px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+
+}
+
+.signUp-button {
+    margin-top: 10px;
+    width: 235px;
+    height: 54px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    color: #000000;
+    font-size: .875rem;
+    line-height: 16px;
+    text-align: center;
+    margin-left: 100px;
+
+}

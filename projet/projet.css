@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+img {
+
+    margin-top: auto;
+    width: 190px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+a {
+
+    display: inline-block;
+    text-align: center;
+    text-decoration-color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+
+.world {
+
+    margin-top: 19px;
+}
+
+a:hover {
+
+    border-bottom: 1px solid black;
+    transition: 0.5ms;
+    color: #e14651;
+}
+
+.navbar {
+    z-index: 5;
+    text-align: center;
+    background-color: rgb(255, 251, 251);
+    padding: 5px 28px 17px;
+    margin-top: 0px;
+    top: 0%;
+    left: 0%;
+    width: 97%;
+    position: fixed;
+}
+
+.logo {
+
+    float: left;
+    margin: -17px -30px;
+}
+
+.login img {
+
+    width: 20px;
+    height: 20px;
+}
+
+/* .reserver{
+    background-color: aqua;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: fixed;
+    top: 69%;
+}
+.Pick-up{
+    display: ruby;
+    margin-right: 80px;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+ .loc{
+    background-color: blue;
+    height: 50px;
+    width: 20%;
+    display: ruby;
+    margin-right: 43px;
+    padding-top: 15px;
+    border-radius: 15px;
+    padding-bottom: 15px;
+} */
+
+/* input {
+    width: 120%;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+}   */
+
+/* .placeholder{
+    color: brown;
+    font-size: 2em;
+}  */
+/* .Book {
+    position: absolute;
+    width: 14%;
+    top: 70%;
+    right: 45%;
+    padding-top: 22px;
+    border: none;
+    height: 49px;
+    border-radius: 15px;
+    font-size: 1.4em;
+    color: white;
+    font-weight: bold;
+    background-color: #28b498;
+
+} */
+
+footer {
+    background-color: #e14651;
+    color: #fff;
+    padding: 50px 0 0;
+    margin-top: 20%;
+}
+
+.max-footer {
+
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
+    max-width: 891px;
+    margin: 0 auto;
+}
+
+.img-footer {
+    width: 2rem;
+}
+
+.link-footer {
+    display: inline;
+    margin-left: 20px;
+}
+
+.footer-container {
+    display: flex;
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
+    max-width: 891px;
+    margin: 0 auto;
+}
+
+.nn {
+    width: 2rem;
+    border-radius: 10px;
+}
+
+.ll {
+    display: inline-flex;
+}
+
+.footer-section {
+    flex-basis: 23%;
+    margin-bottom: 20px;
+    margin-right: 39px;
+}
+
+.footer-section h2 {
+    margin-bottom: 26px;
+    font-family: monospace;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Ubuntu Sans';
+}
+
+
+.span-footer {
+    font-size: 12px;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+.para-footer {
+    margin-top: 14px;
+    font-size: 10px;
+    font-family: monospace;
+    margin-left: 15px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 80px;
+    display: inline-flex;
+    width: 100%;
+}
+
+.copyright p {
+    margin-bottom: 5px;
+    margin-left: 15%;
+    font-size: 10px;
+    font-family: monospace;
+}
+
+
+.copyright a {
+    color: #ddd;
+    font-size: 10px;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+.copyright a:hover {
+    color: #fff;
+}
+
+.section-2 {
+    margin-top: 35%;
+}
+
+.all {
+    display: inline-flex;
+}
+
+.container {
+    max-width: 870px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.how-icons {
+
+    width: 3.4rem;
+    margin-bottom: 20%;
+}
+
+.step {
+    margin-bottom: 20px;
+    margin-right: 35px;
+    margin-left: 35px;
+    max-width: 26%;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 60px;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 700;
+}
+
+.p-how {
+    font-family: system-ui;
+    font-size: 0.8em;
+
+}
+
+h2 {
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    font-family: monospace;
+}
+
+/*.image-fader {
+     width: 100%;
+    height: 111vh;
+    background-image: url(https://www.itl.cat/pngfile/big/25-253444_amazing-laferrari-wallpaper-la-ferrari-wallpaper-4k.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: auto;
+    margin-top: -34px;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/projet/wallpaperflare.com_wallpaper\ \(2\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: auto;
+    z-index: -1; }*/
+.image-fader {
+    width: 300px;
+    height: 300px;
+}
+
+.image-fader-2 {
+    right: 0%;
+    top: 23%;
+    position: absolute;
+    height: 431px;
+    width: 704px;
+    z-index: 3;
+}
+
+.image-fader img {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+.phrase {
+    position: absolute;
+    z-index: 3;
+    font-weight: bold;
+    font-family: "Ubuntu Sans";
+    top: 38%;
+    font-size: 2.5em;
+    margin-left: 17px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 50px;
+    width: 45%;
+    text-transform: capitalize;
+}
+.phrase a{
+    
+    font-family: monospace;
+    margin-top: 28px;
+    width: 121px;
+    /* display: block; */
+    background-color: rgb(225, 70, 81);
+    font-weight: bold;
+    /* position: relative; */
+    color: rgb(255, 255, 255);
+    padding-right: 13px;
+    padding-left: 10px;
+    text-decoration: none;
+    border-radius: 15px;
+    
+}
+
+/* #search {
+    width: 50%;
+    height: 10%;
+    z-index: 3;
+    position: absolute;
+    top: 70%;
+    border-radius: 20px;
+    background-color: rgb(227, 227, 227);
+    margin-left: 24%;
+   
+} */
+
+#search-icon {
+    position: absolute;
+    float: right;
+    top: 73%;
+    left: 71%;
+    width: 25px;
+    height: 25px;
+    z-index: 4;
+}

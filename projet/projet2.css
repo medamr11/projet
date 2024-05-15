@@ -1,0 +1,88 @@
+ .contai {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     align-content: stretch;
+ }
+ .section-3 {
+     margin-top: 10%;
+ }
+
+ .card {
+     margin-left: 7%;
+     position: relative;
+     width: 300px;
+     margin-bottom: 20px;
+     height: 350px;
+     border-radius: 14px;
+     z-index: 1111;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     box-shadow: inset 0 16em 7em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(190, 190, 190), 0.5em 0.5em 1em rgba(0, 0, 0, 0.3);
+ }
+
+ .bg h3 {
+     font-size: 20px;
+     margin-left: 10px;
+     margin-top: 5px;
+ }
+
+ .ooo {
+     font-size: 14px;
+     margin-top: 5px;
+     margin-left: 7px;
+ }
+ .section-3 a:hover{
+color: #fff;
+ }
+ .a {
+     bottom: 12px;
+     left: 5px;
+     background-color: #e14651;
+     color: #fff;
+     padding: 9px 35px 9px 35px;
+     text-decoration: none;
+     border-radius: 5px;
+     position: absolute
+ }
+
+ .free {
+     font-size: 17px;
+     right: 5%;
+     position: absolute;
+     top: 67%;
+     font-family: "Skyscanner Relative", -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+ }
+
+ .img-cars {
+     width: 64%;
+     margin-left: 55px;
+ }
+
+ .price span {
+     font-size: 28px;
+     font-weight: 700;
+ }
+
+ .price {
+     font-family: sans-serif;
+     right: 15px;
+     position: absolute;
+     bottom: 10px;
+     font-size: 16px;
+ }
+
+ .bg {
+     position: absolute;
+     top: 5px;
+     left: 5px;
+     width: 290px;
+     height: 340px;
+     
+  }
+  
+ 
